@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="DeviceScrWidth" value="375"/>
+  <parameter name="Device" value="iphone X"/>
+  <parameter name="browser" value="IE"/>
+  <parameter name="Channel" value="Desktop"/>
+  <parameter name="DeviceScrHeight" value="812"/>
+  <test name="Chrome_test(failed)">
+    <parameter name="DeviceScrWidth" value="375"/>
+    <parameter name="Device" value="iphone X"/>
+    <parameter name="browser" value="IE"/>
+    <parameter name="Channel" value="Desktop"/>
+    <parameter name="DeviceScrHeight" value="812"/>
+    <classes>
+      <class name="com.testcases.driverscripts.Execute_MainScript">
+        <methods>
+          <include name="EnvSetup"/>
+          <include name="TestResults"/>
+          <include name="closebrowser"/>
+          <include name="close"/>
+          <include name="ExecuteTest" invocation-numbers="23 24 25 26 27 29 30 31"/>
+          <include name="Pre_requisite"/>
+        </methods>
+      </class> <!-- com.testcases.driverscripts.Execute_MainScript -->
+    </classes>
+  </test> <!-- Chrome_test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

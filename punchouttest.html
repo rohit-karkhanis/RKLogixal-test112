@@ -1,0 +1,82 @@
+<html>
+
+<body>
+
+<form action="https://b2btest.kamandirect.com/invoke/wm.b2b.cxml/receiveCXML" method="post">
+
+<h1>Submit PunchOutRequest</h1>
+<p>
+<input type="submit" value="Send PunchOut Request">
+
+<br>
+
+<textarea cols="90" name="$xmldata" rows="30">
+<?xml version="1.0"?>
+<!DOCTYPE cXML SYSTEM "http://xml.cxml.org/schemas/cXML/1.1.008/cXML.dtd">
+<cXML version="1.1.008" xml:lang="en-US" payloadID="933695135608.677295401@jlee" timestamp="2000-08-15T08:45:35-07:00">
+  <Header>
+    <From>
+      <Credential domain="NetworkId">
+        <Identity>AN01000017969</Identity>
+      </Credential>
+    </From>
+    <To>
+      <Credential domain="DUNS">
+        <Identity>077316412</Identity>
+      </Credential>
+    </To>
+    <Sender>
+      <Credential domain="AribaNetworkUserId">
+        <Identity>sysadmin@ariba.com</Identity>
+        <SharedSecret>kaman2direct</SharedSecret>
+      </Credential>
+      <UserAgent>Ariba ORMS 6.1</UserAgent>
+    </Sender>
+  </Header>
+	
+  <Request>
+    <PunchOutSetupRequest operation="create">
+      <BuyerCookie>1CX3L4843PPZO</BuyerCookie>
+      <Extrinsic name="UserEmail">SysAdmin@NationalGypsum.com</Extrinsic>
+      <Extrinsic name="UniqueName">bep123</Extrinsic>
+      <Extrinsic name="Department">NGALL:54100</Extrinsic>
+      <BrowserFormPost>
+        <URL>http://kit08wmisd:5556/web/viewshoppingcart.jsp</URL>
+      </BrowserFormPost>
+      <Contact role="endUser">
+        <Name xml:lang="en">CLTRGS:Syracuse,Ray</Name>
+        <Email>SysAdmin@NationalGypsum.com</Email>
+      </Contact>
+      <SupplierSetup>
+      
+        <URL>http://www.workchairs.com/punchout.asp</URL>
+      </SupplierSetup>
+      <ShipTo>
+        <Address addressID="NGALL:BAL13">
+            <Name xml:lang="en">NGALL:CLT11</Name>
+            <PostalAddress>
+                <DeliverTo>National Gypsum Co.</DeliverTo>
+                <Street>Mail Room, Deliveries</Street>
+                <Street>2001 Rexfood Road</Street>
+                <City>Charlotte</City>
+                <State>NC</State>
+                <PostalCode>28211</PostalCode>
+                <Country isoCountryCode="US">United States</Country>
+            </PostalAddress>
+        </Address>
+      </ShipTo>
+    </PunchOutSetupRequest>
+  </Request>
+</cXML>
+
+	
+</textarea>
+
+
+</form>
+</body>
+</html>
+
+
+
+

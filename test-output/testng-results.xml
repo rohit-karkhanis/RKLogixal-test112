@@ -1,0 +1,1854 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="6" total="32" passed="24">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2119776" started-at="2020-04-22T05:28:00Z" finished-at="2020-04-22T06:03:20Z">
+    <groups>
+    </groups>
+    <test name="Chrome_test" duration-ms="2119776" started-at="2020-04-22T05:28:00Z" finished-at="2020-04-22T06:03:20Z">
+      <class name="com.testcases.driverscripts.Execute_MainScript">
+        <test-method status="PASS" signature="Pre_requisite()[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="Pre_requisite" is-config="true" duration-ms="141" started-at="2020-04-22T10:58:00Z" finished-at="2020-04-22T10:58:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pre_requisite -->
+        <test-method status="PASS" signature="EnvSetup(java.lang.String, java.lang.String, java.lang.String, int, int)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="EnvSetup" is-config="true" duration-ms="6204" started-at="2020-04-22T10:58:00Z" finished-at="2020-04-22T10:58:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Desktop]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[iphone X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[812]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[375]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnvSetup -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="8539" started-at="2020-04-22T10:58:06Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T10:58:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC01_Verify_HomePage]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[View store home]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="6" started-at="2020-04-22T10:58:15Z" finished-at="2020-04-22T10:58:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="52246" started-at="2020-04-22T10:58:15Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T10:59:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC03_Verify_BLP_Solutions_ContactUS]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1. Go to home page
+2. Verify brands, solutions, resources, contact and about us pages, Search filed and quick order link]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="2" started-at="2020-04-22T10:59:07Z" finished-at="2020-04-22T10:59:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="24256" started-at="2020-04-22T10:59:07Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T10:59:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC04_Search_product_not_in_Catalog]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Search product not in Catalog ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="16418" started-at="2020-04-22T10:59:31Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T10:59:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC05_Search_product_in_Catalog]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Search product in Catalog ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-04-22T10:59:31Z" finished-at="2020-04-22T10:59:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-04-22T10:59:48Z" finished-at="2020-04-22T10:59:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="34680" started-at="2020-04-22T10:59:48Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:00:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC6_SearchResults_Typeahead]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1. when user typing, type ahead should work
+2. User should be directed to search results list
+3. Dimensions should appear on left]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-04-22T11:00:23Z" finished-at="2020-04-22T11:00:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="36468" started-at="2020-04-22T11:00:23Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:00:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC07_SearchCategory]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[User should be directed to category page]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="47333" started-at="2020-04-22T11:00:59Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC08_VerifyProductListPLP]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Should display products list]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-04-22T11:00:59Z" finished-at="2020-04-22T11:00:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="23071" started-at="2020-04-22T11:01:46Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:02:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC09_Verify_Documented_Savings]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Article should display]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-04-22T11:01:46Z" finished-at="2020-04-22T11:01:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="34128" started-at="2020-04-22T11:02:09Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:02:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC10_Verify_Search_results]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Search results must display]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-04-22T11:02:09Z" finished-at="2020-04-22T11:02:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="27347" started-at="2020-04-22T11:02:44Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:03:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC11_Verify_PDP_From_Search_results]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PDP should display]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-04-22T11:02:44Z" finished-at="2020-04-22T11:02:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-04-22T11:03:11Z" finished-at="2020-04-22T11:03:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="91329" started-at="2020-04-22T11:03:11Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:04:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC12_Verify_AddToCart_from_PDP]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1. Item should be added to cart
+2. Appropriate inventory message must be displayed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-04-22T11:04:42Z" finished-at="2020-04-22T11:04:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="160198" started-at="2020-04-22T11:04:42Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:07:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC26_Verify_Clear_Cart]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[All the items must be removed from the cart]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="15009" started-at="2020-04-22T11:07:22Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:07:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC13_Verify_Search_Dimensions]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Search results should appear
+Dimensions appear on left]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-04-22T11:07:22Z" finished-at="2020-04-22T11:07:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-04-22T11:07:37Z" finished-at="2020-04-22T11:07:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="21975" started-at="2020-04-22T11:07:37Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:07:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC14_Verify_AddToCart_from_Search]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Item should be added to cart]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="123768" started-at="2020-04-22T11:07:59Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:10:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC15_Verify_ViewFullCart]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1. Cart should display
+2. All items in cart must have pricing]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-04-22T11:07:59Z" finished-at="2020-04-22T11:07:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-04-22T11:10:03Z" finished-at="2020-04-22T11:10:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="119721" started-at="2020-04-22T11:10:03Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:12:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC16_Update_Quantity_CartPage]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Items  and price must update]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-04-22T11:12:03Z" finished-at="2020-04-22T11:12:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="116348" started-at="2020-04-22T11:12:03Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:13:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC17_Verify_CheckoutButton]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Items  and price must update]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="148883" started-at="2020-04-22T11:13:59Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:16:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC18_Verify_ShippingPage]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Shipping page must appear]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-04-22T11:13:59Z" finished-at="2020-04-22T11:13:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="162104" started-at="2020-04-22T11:16:28Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:19:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC19_Verify_ShippingMethod]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Shipping method page should display]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-04-22T11:16:28Z" finished-at="2020-04-22T11:16:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-04-22T11:19:10Z" finished-at="2020-04-22T11:19:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="203140" started-at="2020-04-22T11:19:10Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:22:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC20_21_Verify_BillingPage]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1. Billing page should appear
+2. User should be able to add credit card successfully
+3.User must be navigated to final check out page]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-04-22T11:22:33Z" finished-at="2020-04-22T11:22:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="260510" started-at="2020-04-22T11:22:33Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:26:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC22_Verify_PlaceOrder]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Order should be placed successfully]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-04-22T11:26:54Z" finished-at="2020-04-22T11:26:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="84776" started-at="2020-04-22T11:26:54Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:28:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC02_Verify_MYACC]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Verify Myaccounts Section for Managed User]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-04-22T11:28:19Z" finished-at="2020-04-22T11:28:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="60059" started-at="2020-04-22T11:28:19Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:29:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC02_Verify_MYACC_RegisteredUser]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Verify Myaccounts Section for Registered User]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-04-22T11:29:19Z" finished-at="2020-04-22T11:29:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="FAIL" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="42140" started-at="2020-04-22T11:29:19Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:30:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC23_Verify_UserRegistration]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Verify New registration]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[NOT able to find element within given time frame...!!! Element name: 'RegisterButton.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: NOT able to find element within given time frame...!!! Element name: 'RegisterButton.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.operations.Common.FireClass.FailedTCOperation(FireClass.java:84)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:365)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="FAIL" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="31289" started-at="2020-04-22T11:30:01Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:30:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC24_Verify_PlaceOrder_LoggedIn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Order should be placed successfully]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[NOT able to find element within given time frame...!!! Element name: 'Uname1.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: NOT able to find element within given time frame...!!! Element name: 'Uname1.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.operations.Common.FireClass.FailedTCOperation(FireClass.java:84)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:365)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-04-22T11:30:01Z" finished-at="2020-04-22T11:30:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=FAILURE method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-04-22T11:30:32Z" finished-at="2020-04-22T11:30:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=FAILURE method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="FAIL" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="32176" started-at="2020-04-22T11:30:32Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:31:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC27_Verify_Store_room]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Products must be added to store room successfully]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[NOT able to find element within given time frame...!!! Element name: 'Uname1.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: NOT able to find element within given time frame...!!! Element name: 'Uname1.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.operations.Common.FireClass.FailedTCOperation(FireClass.java:84)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:365)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-04-22T11:31:04Z" finished-at="2020-04-22T11:31:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=FAILURE method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="18" started-at="2020-04-22T11:31:04Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:31:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC28_Verify_PunchOut_User]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Verify Behaviour for PunchOut User]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC28_Verify_PunchOut_User has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC28_Verify_PunchOut_User has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:398)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="SKIP" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="13" started-at="2020-04-22T11:31:04Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:31:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC29_VerifyALL_Links_Myaccount]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[All the pages must be displayed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[TC29_VerifyALL_Links_Myaccount has been skipped..]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: TC29_VerifyALL_Links_Myaccount has been skipped..
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:398)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-04-22T11:31:04Z" finished-at="2020-04-22T11:31:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="1" started-at="2020-04-22T11:31:04Z" finished-at="2020-04-22T11:31:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SKIP method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="29069" started-at="2020-04-22T11:31:04Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:31:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC30_Search_Typeahead]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Type ahead must be displayed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-04-22T11:31:33Z" finished-at="2020-04-22T11:31:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=SUCCESS method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="FAIL" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="31828" started-at="2020-04-22T11:31:33Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC31_Verify_login]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[User should be able to login successfully]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[NOT able to find element within given time frame...!!! Element name: 'Uname1.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: NOT able to find element within given time frame...!!! Element name: 'Uname1.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.operations.Common.FireClass.FailedTCOperation(FireClass.java:84)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:365)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-04-22T11:32:05Z" finished-at="2020-04-22T11:32:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=FAILURE method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="FAIL" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="32359" started-at="2020-04-22T11:32:05Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:32:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC32_Verify_store_location]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1. Go to site and then go to store location page
+2. Search for store
+3. Verify the displayed results]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[NOT able to find element within given time frame...!!! Element name: 'Uname1.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: NOT able to find element within given time frame...!!! Element name: 'Uname1.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.operations.Common.FireClass.FailedTCOperation(FireClass.java:84)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:365)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-04-22T11:32:38Z" finished-at="2020-04-22T11:32:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=FAILURE method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="FAIL" signature="ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="ExecuteTest" duration-ms="41881" started-at="2020-04-22T11:32:38Z" data-provider="Fetch_Master_data" finished-at="2020-04-22T11:33:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ALL_PAGES]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[END_TO_END]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TC40_Adding_MultipleItems_QuickOrder]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1. more than 10 Items should be added to cart
+2. Appropriate inventory message must be displayed]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[High]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[NOT able to find element within given time frame...!!! Element name: 'Uname1.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: NOT able to find element within given time frame...!!! Element name: 'Uname1.
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.operations.Common.FireClass.FailedTCOperation(FireClass.java:84)
+	at com.testcases.driverscripts.Execute_MainScript.ExecuteTest(Execute_MainScript.java:365)
+	at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
+	at org.testng.TestNG.run(TestNG.java:1024)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExecuteTest -->
+        <test-method status="PASS" signature="TestResults(org.testng.ITestResult)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="TestResults" is-config="true" duration-ms="0" started-at="2020-04-22T11:33:20Z" finished-at="2020-04-22T11:33:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExecuteTest status=FAILURE method=Execute_MainScript.ExecuteTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestResults -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="close" is-config="true" duration-ms="475" started-at="2020-04-22T11:33:20Z" finished-at="2020-04-22T11:33:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="closebrowser(java.lang.String)[pri:0, instance:com.testcases.driverscripts.Execute_MainScript@25bbe1b6]" name="closebrowser" is-config="true" duration-ms="238" started-at="2020-04-22T11:33:20Z" finished-at="2020-04-22T11:33:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.testcases.driverscripts.Execute_MainScript -->
+    </test> <!-- Chrome_test -->
+  </suite> <!-- Suite -->
+</testng-results>

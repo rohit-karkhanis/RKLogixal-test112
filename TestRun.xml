@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+     <test name="Chrome_test">
+    <parameter name="browser" value="IE" />
+	 <parameter name="Channel" value="Desktop" />
+	  <parameter name="Device" value="iphone X" />
+     <parameter name="DeviceScrWidth" value="375" />
+    <parameter name="DeviceScrHeight" value="812" />
+    
+    <classes>
+     <class name="com.testcases.driverscripts.Execute_MainScript"/>
+    </classes>
+	 </test> <!-- Test -->
+      </suite> <!-- Suite -->
+  
